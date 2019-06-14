@@ -1,4 +1,4 @@
-FROM postgres:9.6
+FROM postgres:10.3
 LABEL maintainer "Matheus Souza"
 
 RUN localedef -i pt_BR -c -f UTF-8 -A /usr/share/locale/locale.alias pt_BR.UTF-8
